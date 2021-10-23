@@ -11,3 +11,10 @@ Docker container running Jupyter with IHaskell kernel via
 ```bash
 make haskell
 ```
+
+Scala code can be found in a Scala - [Almond](https://almond.sh/)
+notebook `ctfp-scala.ipynb`. In order to view and edit it one can start a
+Docker container running Jupyter with Scala 2.13 kernel via
+```bash
+make scala
+```

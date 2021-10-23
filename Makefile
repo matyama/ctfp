@@ -12,7 +12,9 @@ haskell:
 scala: TAG := latest
 scala:
 	@docker run \
-		-it \
+		--name ctfp-scala \
 		--rm \
+		-it \
 		-p 8888:8888 \
+		-v $(PWD):/home/jovyan/work \
 		almondsh/almond:$(TAG)
