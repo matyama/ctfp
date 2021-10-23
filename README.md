@@ -1,5 +1,4 @@
 # Category Theory for Programmers
-Examples and exercises from
 This repository contains selected examples and solutions to challenges
 from [*Category Theory for Programmer(Scala edition)*](https://www.goodreads.com/book/show/48677884-category-theory-for-programmers-scala-edition).
 
